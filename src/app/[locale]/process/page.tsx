@@ -10,7 +10,7 @@ import { Reveal, Stagger, StaggerItem } from "@/components/ui/motion";
 import { PageHeader } from "@/components/layout/page-header";
 import { MarketsList } from "@/components/sections/markets";
 import { FinalCta } from "@/components/sections/final-cta";
-import { BreadcrumbJsonLd } from "@/components/seo/json-ld";
+import { PageSeo } from "@/components/seo/page-seo";
 
 export async function generateMetadata({
   params,
@@ -34,12 +34,12 @@ export default async function ProcessPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  return <ProcessContent />;
+  return <ProcessContent locale={locale} />;
 }
 
 type Step = { step: string; title: string; body: string };
 
-function ProcessContent() {
+function ProcessContent({ locale }: { locale: Locale }) {
   const t = useTranslations("process");
   const tn = useTranslations("nav");
   const steps = t.raw("steps") as Step[];
@@ -52,10 +52,14 @@ function ProcessContent() {
         lead={t("lead")}
         breadcrumbs={[{ label: tn("home"), href: "/" }, { label: tn("process") }]}
       />
-      <BreadcrumbJsonLd
-        items={[
-          { name: "Home", url: "/en" },
-          { name: "Export Process", url: "/en/process" },
+      <PageSeo
+        locale={locale}
+        path="/process"
+        title={t("title")}
+        description={t("lead")}
+        breadcrumbs={[
+          { name: tn("home"), path: "/" },
+          { name: tn("process") },
         ]}
       />
 

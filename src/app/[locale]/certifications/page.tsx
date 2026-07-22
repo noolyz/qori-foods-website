@@ -8,7 +8,7 @@ import { Reveal, Stagger, StaggerItem } from "@/components/ui/motion";
 import { PageHeader } from "@/components/layout/page-header";
 import { CertCard } from "@/components/sections/cert-card";
 import { FinalCta } from "@/components/sections/final-cta";
-import { BreadcrumbJsonLd } from "@/components/seo/json-ld";
+import { PageSeo } from "@/components/seo/page-seo";
 import { certifications } from "@/data/certifications";
 
 export async function generateMetadata({
@@ -33,10 +33,10 @@ export default async function CertificationsPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  return <CertificationsContent />;
+  return <CertificationsContent locale={locale} />;
 }
 
-function CertificationsContent() {
+function CertificationsContent({ locale }: { locale: Locale }) {
   const t = useTranslations("certifications");
   const tn = useTranslations("nav");
 
@@ -48,10 +48,14 @@ function CertificationsContent() {
         lead={t("lead")}
         breadcrumbs={[{ label: tn("home"), href: "/" }, { label: tn("certifications") }]}
       />
-      <BreadcrumbJsonLd
-        items={[
-          { name: "Home", url: "/en" },
-          { name: "Certifications", url: "/en/certifications" },
+      <PageSeo
+        locale={locale}
+        path="/certifications"
+        title={t("title")}
+        description={t("lead")}
+        breadcrumbs={[
+          { name: tn("home"), path: "/" },
+          { name: tn("certifications") },
         ]}
       />
 

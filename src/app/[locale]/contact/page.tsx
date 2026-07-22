@@ -9,7 +9,7 @@ import { Card } from "@/components/ui/card";
 import { Reveal } from "@/components/ui/motion";
 import { PageHeader } from "@/components/layout/page-header";
 import { ContactForm } from "@/components/sections/contact-form";
-import { BreadcrumbJsonLd } from "@/components/seo/json-ld";
+import { PageSeo } from "@/components/seo/page-seo";
 import { siteConfig } from "@/lib/site";
 
 export async function generateMetadata({
@@ -37,10 +37,16 @@ export default async function ContactPage({
   const { locale } = await params;
   const { product } = await searchParams;
   setRequestLocale(locale);
-  return <ContactContent defaultProduct={product} />;
+  return <ContactContent locale={locale} defaultProduct={product} />;
 }
 
-function ContactContent({ defaultProduct }: { defaultProduct?: string }) {
+function ContactContent({
+  locale,
+  defaultProduct,
+}: {
+  locale: Locale;
+  defaultProduct?: string;
+}) {
   const t = useTranslations("contact");
   const tn = useTranslations("nav");
   const { contact } = siteConfig;
@@ -72,10 +78,14 @@ function ContactContent({ defaultProduct }: { defaultProduct?: string }) {
         lead={t("lead")}
         breadcrumbs={[{ label: tn("home"), href: "/" }, { label: tn("contact") }]}
       />
-      <BreadcrumbJsonLd
-        items={[
-          { name: "Home", url: "/en" },
-          { name: "Contact", url: "/en/contact" },
+      <PageSeo
+        locale={locale}
+        path="/contact"
+        title={t("title")}
+        description={t("lead")}
+        breadcrumbs={[
+          { name: tn("home"), path: "/" },
+          { name: tn("contact") },
         ]}
       />
 

@@ -15,7 +15,8 @@ import { Reveal, Stagger, StaggerItem } from "@/components/ui/motion";
 import { Breadcrumbs } from "@/components/ui/breadcrumbs";
 import { AvailabilityStrip } from "@/components/sections/seasonality";
 import { ProductCard } from "@/components/sections/product-card";
-import { ProductJsonLd, BreadcrumbJsonLd } from "@/components/seo/json-ld";
+import { ProductJsonLd } from "@/components/seo/json-ld";
+import { PageSeo } from "@/components/seo/page-seo";
 import { products, getProduct, productCategories } from "@/data/products";
 import { getCertification } from "@/data/certifications";
 import { t as tr, tList, type Product } from "@/data/types";
@@ -78,11 +79,15 @@ function ProductDetail({ product }: { product: Product }) {
   return (
     <>
       <ProductJsonLd product={product} locale={locale} />
-      <BreadcrumbJsonLd
-        items={[
-          { name: "Home", url: "/en" },
-          { name: "Products", url: "/en/products" },
-          { name: tr(product.name, "en"), url: `/en/products/${product.slug}` },
+      <PageSeo
+        locale={locale}
+        path={`/products/${product.slug}`}
+        title={name}
+        description={tr(product.summary, locale)}
+        breadcrumbs={[
+          { name: tn("home"), path: "/" },
+          { name: tn("products"), path: "/products" },
+          { name },
         ]}
       />
 

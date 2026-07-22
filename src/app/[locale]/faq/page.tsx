@@ -8,7 +8,7 @@ import { Reveal } from "@/components/ui/motion";
 import { PageHeader } from "@/components/layout/page-header";
 import { FaqAccordion } from "@/components/sections/faq-accordion";
 import { FinalCta } from "@/components/sections/final-cta";
-import { BreadcrumbJsonLd } from "@/components/seo/json-ld";
+import { PageSeo } from "@/components/seo/page-seo";
 
 export async function generateMetadata({
   params,
@@ -32,12 +32,12 @@ export default async function FaqPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  return <FaqContent />;
+  return <FaqContent locale={locale} />;
 }
 
 type Item = { q: string; a: string };
 
-function FaqContent() {
+function FaqContent({ locale }: { locale: Locale }) {
   const t = useTranslations("faq");
   const tn = useTranslations("nav");
   const items = t.raw("items") as Item[];
@@ -50,10 +50,14 @@ function FaqContent() {
         lead={t("lead")}
         breadcrumbs={[{ label: tn("home"), href: "/" }, { label: tn("faq") }]}
       />
-      <BreadcrumbJsonLd
-        items={[
-          { name: "Home", url: "/en" },
-          { name: "FAQ", url: "/en/faq" },
+      <PageSeo
+        locale={locale}
+        path="/faq"
+        title={t("title")}
+        description={t("lead")}
+        breadcrumbs={[
+          { name: tn("home"), path: "/" },
+          { name: tn("faq") },
         ]}
       />
       <script

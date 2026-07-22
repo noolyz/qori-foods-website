@@ -2,7 +2,7 @@ import { type Metadata } from "next";
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { useTranslations } from "next-intl";
-import { Sprout, Users, Leaf, ShieldCheck } from "lucide-react";
+import { Sprout, Users, Leaf, ShieldCheck, MapPin, Globe2 } from "lucide-react";
 import { type Locale } from "@/i18n/routing";
 import { pageMetadata } from "@/lib/seo";
 import { Container, Section, SectionHeading } from "@/components/ui/section";
@@ -10,7 +10,7 @@ import { Card } from "@/components/ui/card";
 import { Reveal, Stagger, StaggerItem } from "@/components/ui/motion";
 import { PageHeader } from "@/components/layout/page-header";
 import { FinalCta } from "@/components/sections/final-cta";
-import { BreadcrumbJsonLd } from "@/components/seo/json-ld";
+import { PageSeo } from "@/components/seo/page-seo";
 
 export async function generateMetadata({
   params,
@@ -36,19 +36,21 @@ export default async function AboutPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  return <AboutContent />;
+  return <AboutContent locale={locale} />;
 }
 
 type ValueItem = { title: string; body: string };
 type TimelineItem = { year: string; title: string; body: string };
+type FairItem = { name: string; location: string };
 
-function AboutContent() {
+function AboutContent({ locale }: { locale: Locale }) {
   const t = useTranslations("about");
   const tn = useTranslations("nav");
 
   const story = t.raw("story") as string[];
   const values = t.raw("values") as ValueItem[];
   const timeline = t.raw("timeline") as TimelineItem[];
+  const fairs = t.raw("fairs") as FairItem[];
 
   return (
     <>
@@ -58,10 +60,14 @@ function AboutContent() {
         lead={t("lead")}
         breadcrumbs={[{ label: tn("home"), href: "/" }, { label: tn("about") }]}
       />
-      <BreadcrumbJsonLd
-        items={[
-          { name: "Home", url: "/en" },
-          { name: "About", url: "/en/about" },
+      <PageSeo
+        locale={locale}
+        path="/about"
+        title={t("title")}
+        description={t("lead")}
+        breadcrumbs={[
+          { name: tn("home"), path: "/" },
+          { name: tn("about") },
         ]}
       />
 
@@ -154,6 +160,42 @@ function AboutContent() {
               </StaggerItem>
             ))}
           </Stagger>
+        </Container>
+      </Section>
+
+      {/* Trade fairs & international presence */}
+      <Section tone="white">
+        <Container>
+          <Reveal>
+            <SectionHeading
+              eyebrow={t("fairsTitle")}
+              title={t("fairsTitle")}
+              lead={t("fairsLead")}
+            />
+          </Reveal>
+          <Stagger className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {fairs.map((fair) => (
+              <StaggerItem key={fair.name} className="h-full">
+                <Card interactive className="flex h-full items-start gap-4 p-6">
+                  <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-clay-100 text-clay-700">
+                    <Globe2 className="h-5 w-5" />
+                  </span>
+                  <div>
+                    <h3 className="text-base font-semibold leading-snug text-ink-900">
+                      {fair.name}
+                    </h3>
+                    <p className="mt-1 flex items-center gap-1.5 text-sm text-ink-500">
+                      <MapPin className="h-3.5 w-3.5 shrink-0" aria-hidden />
+                      {fair.location}
+                    </p>
+                  </div>
+                </Card>
+              </StaggerItem>
+            ))}
+          </Stagger>
+          <Reveal delay={0.1}>
+            <p className="mt-8 text-sm text-ink-400">{t("fairsNote")}</p>
+          </Reveal>
         </Container>
       </Section>
 

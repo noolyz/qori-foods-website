@@ -1,9 +1,11 @@
 {
   "meta": {
-    "titleDefault": "Qori Foods — Productos frescos del Perú para el mundo",
-    "titleTemplate": "%s — Qori Foods",
-    "description": "Qori Foods SAC es una empresa peruana productora y exportadora de frutas y hortalizas frescas y certificadas —desde nuestros arándanos insignia hasta cultivos andinos especiales— con la confianza de compradores internacionales.",
-    "keywords": "exportador frutas Perú, arándanos frescos Perú, exportador de palta, GLOBALG.A.P., productos frescos B2B, Qori Foods"
+    "titleDefault": "Qori Foods | QORI — Exportador de Productos Frescos del Perú | Arándanos, Palta y Más",
+    "titleTemplate": "%s | Qori Foods",
+    "homeTitle": "Qori Foods | QORI — Exportador #1 de Frutas y Hortalizas Frescas del Perú",
+    "homeDescription": "Qori Foods SAC (QORI) — exportador peruano certificado de arándanos frescos, palta Hass, arveja china, jengibre y más de 13 cultivos premium. GLOBALG.A.P., BRCGS y HACCP. Solicita cotización para programas B2B internacionales.",
+    "description": "Qori Foods SAC (QORI) es un exportador y productor peruano líder de frutas y hortalizas frescas certificadas — arándanos insignia de Caraz, Áncash, palta Hass, arveja china, jengibre y cultivos andinos — con la confianza de compradores B2B en EE.UU., Europa y Asia.",
+    "keywords": "Qori Foods, QORI, Qori Foods SAC, exportador productos frescos Perú, exportador frutas Perú"
   },
   "nav": {
     "home": "Inicio",
@@ -12,6 +14,7 @@
     "certifications": "Certificaciones",
     "sustainability": "Sostenibilidad",
     "process": "Proceso de exportación",
+    "valueAdded": "Valor Agregado",
     "gallery": "Galería",
     "faq": "Preguntas",
     "news": "Novedades",
@@ -143,7 +146,18 @@
       { "year": "2018", "title": "Expansión de arándanos", "body": "Escalamos nuestro programa insignia de arándanos en el Callejón de Huaylas." },
       { "year": "2021", "title": "Certificaciones internacionales", "body": "Consolidamos GLOBALG.A.P., HACCP y estándares sociales en toda la operación." },
       { "year": "Hoy", "title": "Exportando al mundo", "body": "Una gama diversificada de cultivos certificados enviados a compradores de tres continentes." }
-    ]
+    ],
+    "fairsTitle": "Donde el mundo nos encuentra",
+    "fairsLead": "Llevamos la calidad peruana a las ferias de productos frescos más importantes del mundo, construyendo relaciones con importadores, cadenas y socios en cada continente.",
+    "fairs": [
+      { "name": "Fruit Logistica", "location": "Berlín, Alemania" },
+      { "name": "Fruit Attraction", "location": "Madrid, España" },
+      { "name": "Asia Fruit Logistica", "location": "Hong Kong, Asia" },
+      { "name": "IFPA · The Global Produce & Floral Show (PMA)", "location": "Estados Unidos" },
+      { "name": "Expoalimentaria", "location": "Lima, Perú" },
+      { "name": "Agrofest", "location": "Perú" }
+    ],
+    "fairsNote": "Una selección de las ferias internacionales en las que Qori Foods ha estado presente."
   },
   "products": {
     "eyebrow": "Nuestros productos",
@@ -208,6 +222,79 @@
     "traceabilityTitle": "Trazabilidad total",
     "traceabilityBody": "Cada envío puede rastrearse hasta su campo y lote de cosecha, respaldado por nuestras certificaciones y controles de calidad documentados.",
     "marketsTitle": "A dónde enviamos"
+  },
+  "valueAdded": {
+    "eyebrow": "Innovación e I+D",
+    "title": "Innovación de Valor Agregado",
+    "subtitle": "Transformamos la excelencia agrícola en nuevas oportunidades a través de la investigación, el desarrollo y la innovación.",
+    "introEyebrow": "Nuestro enfoque",
+    "introTitle": "Crear valor más allá de la cosecha",
+    "introBody": [
+      "En Qori Foods, nuestro trabajo no termina en el campo. Investigamos continuamente nuevas aplicaciones para nuestros productos agrícolas, explorando cómo la calidad que cultivamos puede convertirse en soluciones de mayor valor para los mercados internacionales.",
+      "La innovación es una mentalidad que atraviesa todo lo que hacemos: desde la forma en que seleccionamos y manejamos nuestros cultivos, hasta las alianzas y tecnologías que estudiamos para abrir nuevas posibilidades. Invertimos en aprender, probar y validar para que cada idea que perseguimos se construya sobre los mismos estándares de calidad y confianza que definen nuestros productos."
+    ],
+    "areasEyebrow": "Áreas de innovación",
+    "areasTitle": "Dónde estamos explorando",
+    "areasLead": "Un vistazo a las direcciones que investigamos y desarrollamos, cada una basada en nuestra experiencia agrícola y nuestro compromiso con la calidad.",
+    "areas": [
+      {
+        "name": "Ingredientes Funcionales",
+        "description": "Estudiamos cómo las propiedades naturales de nuestros cultivos pueden convertirse en ingredientes funcionales con valor nutricional para la industria alimentaria.",
+        "status": "rd"
+      },
+      {
+        "name": "Extractos Naturales",
+        "description": "Exploramos extractos limpios y naturales derivados de frutas y hortalizas peruanas para aplicaciones premium.",
+        "status": "development"
+      },
+      {
+        "name": "Soluciones Alimentarias Premium",
+        "description": "Desarrollamos formatos refinados y de valor agregado que responden a las necesidades de compradores internacionales exigentes.",
+        "status": "rd"
+      },
+      {
+        "name": "Desarrollo de Productos",
+        "description": "Probamos nuevas presentaciones y formatos que amplían la vida útil y la versatilidad de nuestros productos.",
+        "status": "development"
+      },
+      {
+        "name": "Innovación Agrícola Sostenible",
+        "description": "Investigamos prácticas y tecnologías que hacen nuestra producción más eficiente, responsable y regenerativa.",
+        "status": "rd"
+      },
+      {
+        "name": "Productos Agrícolas de Valor Agregado",
+        "description": "Investigamos cómo nuestras materias primas pueden transformarse en productos diferenciados con mayor valor de mercado.",
+        "status": "development"
+      }
+    ],
+    "statusRd": "Investigación y Desarrollo",
+    "statusDevelopment": "En Desarrollo",
+    "processEyebrow": "Nuestro proceso",
+    "processTitle": "Cómo toma forma la innovación",
+    "processLead": "Un camino disciplinado desde la primera idea hasta la oportunidad futura, con la calidad y la confianza guiando cada paso.",
+    "processSteps": [
+      { "title": "Investigación", "body": "Estudiamos las necesidades del mercado, el conocimiento científico y el potencial natural de nuestros cultivos." },
+      { "title": "Pruebas", "body": "Experimentamos y creamos prototipos, explorando lo que es posible con nuestras materias primas." },
+      { "title": "Validación", "body": "Evaluamos los resultados frente a estándares reales, viabilidad y relevancia de mercado." },
+      { "title": "Aseguramiento de Calidad", "body": "Todo desarrollo prometedor se somete a los mismos controles de calidad rigurosos que nuestros productos." },
+      { "title": "Comercialización Futura", "body": "Cuando una idea está lista, la preparamos para llegar a los mercados internacionales con confianza." }
+    ],
+    "commitmentEyebrow": "Nuestro compromiso",
+    "commitmentTitle": "La innovación es parte de nuestra visión a largo plazo",
+    "commitmentBody": "Creemos que el futuro de la exportación agrícola pertenece a las empresas que nunca dejan de mejorar. La innovación no es un proyecto para nosotros: es un compromiso permanente entretejido en cómo cultivamos, cómo trabajamos y cómo servimos a nuestros socios.",
+    "commitments": [
+      { "title": "Mejora continua", "body": "Perfeccionamos cada proceso, siempre buscando una mejor manera de avanzar." },
+      { "title": "Calidad del producto", "body": "La calidad es la base de todo lo que investigamos y desarrollamos." },
+      { "title": "Sostenibilidad", "body": "Perseguimos una innovación que respeta a las personas y al planeta." },
+      { "title": "Mercados internacionales", "body": "Desarrollamos pensando en las necesidades de compradores globales exigentes." },
+      { "title": "Investigación", "body": "Invertimos en conocimiento, pruebas y validación antes de hacer promesas." },
+      { "title": "Valor para el cliente", "body": "Cada idea que perseguimos se mide por el valor que crea para nuestros socios." }
+    ],
+    "ctaTitle": "Construyamos juntos el futuro de los productos de valor agregado",
+    "ctaLead": "Si tu empresa está interesada en alianzas de innovación o en futuros productos de valor agregado, nos encantaría iniciar una conversación.",
+    "ctaPrimary": "Iniciar una conversación",
+    "ctaSecondary": "Escríbenos por WhatsApp"
   },
   "gallery": {
     "eyebrow": "Galería",

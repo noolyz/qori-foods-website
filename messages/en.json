@@ -1,9 +1,11 @@
 {
   "meta": {
-    "titleDefault": "Qori Foods — Fresh Peruvian Produce, Exported to the World",
-    "titleTemplate": "%s — Qori Foods",
-    "description": "Qori Foods SAC is a Peruvian grower and exporter of fresh, certified fruits and vegetables — from flagship blueberries to Andean specialty crops — trusted by international buyers.",
-    "keywords": "Peruvian produce exporter, fresh blueberries Peru, avocado exporter, GLOBALG.A.P., B2B produce, Qori Foods"
+    "titleDefault": "Qori Foods | QORI — Peruvian Fresh Produce Exporter | Blueberries, Avocado & More",
+    "titleTemplate": "%s | Qori Foods",
+    "homeTitle": "Qori Foods | QORI — #1 Peruvian Fresh Fruit & Vegetable Exporter",
+    "homeDescription": "Qori Foods SAC (QORI) — certified Peruvian exporter of fresh blueberries, Hass avocado, snow peas, ginger and 13+ premium crops. GLOBALG.A.P., BRCGS & HACCP. Request a quote for B2B import programs worldwide.",
+    "description": "Qori Foods SAC (QORI) is a leading Peruvian grower and exporter of fresh, certified fruits and vegetables — flagship blueberries from Caraz, Áncash, Hass avocado, snow peas, ginger and Andean specialty crops — trusted by international B2B buyers in the USA, Europe and Asia.",
+    "keywords": "Qori Foods, QORI, Qori Foods SAC, Peruvian produce exporter, fresh fruit export Peru"
   },
   "nav": {
     "home": "Home",
@@ -12,6 +14,7 @@
     "certifications": "Certifications",
     "sustainability": "Sustainability",
     "process": "Export Process",
+    "valueAdded": "Value Added",
     "gallery": "Gallery",
     "faq": "FAQ",
     "news": "News",
@@ -143,7 +146,18 @@
       { "year": "2018", "title": "Blueberry expansion", "body": "We scale our flagship blueberry program across the Callejón de Huaylas." },
       { "year": "2021", "title": "International certifications", "body": "We consolidate GLOBALG.A.P., HACCP and social standards across operations." },
       { "year": "Today", "title": "Exporting worldwide", "body": "A diversified range of certified crops shipped to buyers across three continents." }
-    ]
+    ],
+    "fairsTitle": "Where the world meets us",
+    "fairsLead": "We take Peruvian quality to the most important fresh-produce trade fairs in the world — building relationships with importers, retailers and partners across every continent.",
+    "fairs": [
+      { "name": "Fruit Logistica", "location": "Berlin, Germany" },
+      { "name": "Fruit Attraction", "location": "Madrid, Spain" },
+      { "name": "Asia Fruit Logistica", "location": "Hong Kong, Asia" },
+      { "name": "IFPA · The Global Produce & Floral Show (PMA)", "location": "United States" },
+      { "name": "Expoalimentaria", "location": "Lima, Peru" },
+      { "name": "Agrofest", "location": "Peru" }
+    ],
+    "fairsNote": "A selection of the international trade fairs where Qori Foods has been present."
   },
   "products": {
     "eyebrow": "Our products",
@@ -208,6 +222,79 @@
     "traceabilityTitle": "Full traceability",
     "traceabilityBody": "Every shipment can be traced back to its field and harvest lot — supported by our certifications and documented quality controls.",
     "marketsTitle": "Where we ship"
+  },
+  "valueAdded": {
+    "eyebrow": "Innovation & R&D",
+    "title": "Value Added Innovation",
+    "subtitle": "Transforming agricultural excellence into new opportunities through research, development and innovation.",
+    "introEyebrow": "Our approach",
+    "introTitle": "Creating value beyond the harvest",
+    "introBody": [
+      "At Qori Foods, our work does not end at the field. We continuously research new applications for our agricultural products — exploring how the quality we grow can become higher-value solutions for international markets.",
+      "Innovation is a mindset that runs through everything we do: from the way we select and handle our crops, to the partnerships and technologies we study to unlock new possibilities. We invest in learning, testing and validation so that every idea we pursue is built on the same standards of quality and trust that define our produce."
+    ],
+    "areasEyebrow": "Innovation areas",
+    "areasTitle": "Where we are exploring",
+    "areasLead": "A look at the directions we are researching and developing — each grounded in our agricultural expertise and our commitment to quality.",
+    "areas": [
+      {
+        "name": "Functional Ingredients",
+        "description": "Studying how the natural properties of our crops can become functional ingredients with nutritional value for the food industry.",
+        "status": "rd"
+      },
+      {
+        "name": "Natural Food Extracts",
+        "description": "Exploring clean, natural extracts derived from Peruvian fruits and vegetables for premium applications.",
+        "status": "development"
+      },
+      {
+        "name": "Premium Food Solutions",
+        "description": "Developing refined, value-added formats that answer the needs of demanding international buyers.",
+        "status": "rd"
+      },
+      {
+        "name": "Product Development",
+        "description": "Testing new presentations and formats that extend the life and versatility of our produce.",
+        "status": "development"
+      },
+      {
+        "name": "Sustainable Agricultural Innovation",
+        "description": "Researching practices and technologies that make our production more efficient, responsible and regenerative.",
+        "status": "rd"
+      },
+      {
+        "name": "Value-Added Agricultural Products",
+        "description": "Investigating how our raw materials can be transformed into differentiated products with greater market value.",
+        "status": "development"
+      }
+    ],
+    "statusRd": "Research & Development",
+    "statusDevelopment": "In Development",
+    "processEyebrow": "Our process",
+    "processTitle": "How innovation takes shape",
+    "processLead": "A disciplined path from first idea to future opportunity — with quality and trust guiding every step.",
+    "processSteps": [
+      { "title": "Research", "body": "We study market needs, scientific insight and the natural potential of our crops." },
+      { "title": "Testing", "body": "We experiment and prototype, exploring what is possible with our raw materials." },
+      { "title": "Validation", "body": "We assess results against real standards, feasibility and market relevance." },
+      { "title": "Quality Assurance", "body": "Every promising development is held to the same rigorous quality controls as our produce." },
+      { "title": "Future Commercialization", "body": "When an idea is ready, we prepare it to reach international markets with confidence." }
+    ],
+    "commitmentEyebrow": "Our commitment",
+    "commitmentTitle": "Innovation is part of our long-term vision",
+    "commitmentBody": "We believe the future of agricultural export belongs to companies that never stop improving. Innovation is not a project for us — it is a permanent commitment woven into how we grow, how we work and how we serve our partners.",
+    "commitments": [
+      { "title": "Continuous improvement", "body": "We refine every process, always searching for a better way forward." },
+      { "title": "Product quality", "body": "Quality is the foundation of everything we research and develop." },
+      { "title": "Sustainability", "body": "We pursue innovation that respects people and the planet." },
+      { "title": "International markets", "body": "We develop with the needs of demanding global buyers in mind." },
+      { "title": "Research", "body": "We invest in knowledge, testing and validation before making promises." },
+      { "title": "Customer value", "body": "Every idea we pursue is measured by the value it creates for our partners." }
+    ],
+    "ctaTitle": "Let's build the future of value-added produce together",
+    "ctaLead": "If your company is interested in innovation partnerships or future value-added products, we'd love to start a conversation.",
+    "ctaPrimary": "Start a conversation",
+    "ctaSecondary": "Chat on WhatsApp"
   },
   "gallery": {
     "eyebrow": "Gallery",

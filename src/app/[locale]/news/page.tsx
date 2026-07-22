@@ -9,7 +9,7 @@ import { Reveal } from "@/components/ui/motion";
 import { EmptyState } from "@/components/ui/empty-state";
 import { ButtonLink } from "@/components/ui/button";
 import { PageHeader } from "@/components/layout/page-header";
-import { BreadcrumbJsonLd } from "@/components/seo/json-ld";
+import { PageSeo } from "@/components/seo/page-seo";
 
 export async function generateMetadata({
   params,
@@ -33,10 +33,10 @@ export default async function NewsPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  return <NewsContent />;
+  return <NewsContent locale={locale} />;
 }
 
-function NewsContent() {
+function NewsContent({ locale }: { locale: Locale }) {
   const t = useTranslations("news");
   const tn = useTranslations("nav");
 
@@ -48,10 +48,14 @@ function NewsContent() {
         lead={t("lead")}
         breadcrumbs={[{ label: tn("home"), href: "/" }, { label: tn("news") }]}
       />
-      <BreadcrumbJsonLd
-        items={[
-          { name: "Home", url: "/en" },
-          { name: "News", url: "/en/news" },
+      <PageSeo
+        locale={locale}
+        path="/news"
+        title={t("title")}
+        description={t("lead")}
+        breadcrumbs={[
+          { name: tn("home"), path: "/" },
+          { name: tn("news") },
         ]}
       />
 

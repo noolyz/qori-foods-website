@@ -8,7 +8,9 @@ import { siteConfig } from "@/lib/site";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { WhatsappFab } from "@/components/layout/whatsapp-fab";
-import { OrganizationJsonLd } from "@/components/seo/json-ld";
+import { GlobalJsonLd } from "@/components/seo/json-ld";
+import { mergeKeywords } from "@/lib/seo-config";
+import { OG_IMAGE } from "@/lib/seo";
 import "../globals.css";
 
 const inter = Inter({
@@ -43,7 +45,11 @@ export async function generateMetadata({
       template: t("titleTemplate"),
     },
     description: t("description"),
-    keywords: t("keywords"),
+    keywords: mergeKeywords(locale),
+    applicationName: siteConfig.name,
+    authors: [{ name: siteConfig.legalName, url: siteConfig.url }],
+    creator: siteConfig.legalName,
+    publisher: siteConfig.legalName,
     alternates: {
       canonical: `/${locale}`,
       languages: {
@@ -57,14 +63,28 @@ export async function generateMetadata({
       siteName: siteConfig.name,
       title: t("titleDefault"),
       description: t("description"),
+      url: `${siteConfig.url}/${locale}`,
       locale: locale === "es" ? "es_PE" : "en_US",
+      alternateLocale: [locale === "es" ? "en_US" : "es_PE"],
+      images: [{ url: OG_IMAGE, width: 1200, height: 630, alt: t("titleDefault") }],
     },
     twitter: {
       card: "summary_large_image",
       title: t("titleDefault"),
       description: t("description"),
+      images: [OG_IMAGE],
     },
-    robots: { index: true, follow: true },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-video-preview": -1,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+      },
+    },
   };
 }
 
@@ -93,7 +113,7 @@ export default async function LocaleLayout({
           <main id="main">{children}</main>
           <Footer />
           <WhatsappFab />
-          <OrganizationJsonLd />
+          <GlobalJsonLd locale={locale} />
         </NextIntlClientProvider>
       </body>
     </html>

@@ -9,7 +9,8 @@ import { PageHeader } from "@/components/layout/page-header";
 import { ProductsGrid } from "@/components/sections/products-grid";
 import { SeasonalityMatrix } from "@/components/sections/seasonality";
 import { FinalCta } from "@/components/sections/final-cta";
-import { BreadcrumbJsonLd } from "@/components/seo/json-ld";
+import { PageSeo } from "@/components/seo/page-seo";
+import { ProductListJsonLd } from "@/components/seo/json-ld";
 import { products } from "@/data/products";
 
 export async function generateMetadata({
@@ -34,10 +35,10 @@ export default async function ProductsPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  return <ProductsContent />;
+  return <ProductsContent locale={locale} />;
 }
 
-function ProductsContent() {
+function ProductsContent({ locale }: { locale: Locale }) {
   const t = useTranslations("products");
   const th = useTranslations("home.seasonality");
   const tn = useTranslations("nav");
@@ -50,12 +51,17 @@ function ProductsContent() {
         lead={t("lead")}
         breadcrumbs={[{ label: tn("home"), href: "/" }, { label: tn("products") }]}
       />
-      <BreadcrumbJsonLd
-        items={[
-          { name: "Home", url: "/en" },
-          { name: "Products", url: "/en/products" },
+      <PageSeo
+        locale={locale}
+        path="/products"
+        title={t("title")}
+        description={t("lead")}
+        breadcrumbs={[
+          { name: tn("home"), path: "/" },
+          { name: tn("products") },
         ]}
       />
+      <ProductListJsonLd locale={locale} products={products} />
 
       <Section tone="bone">
         <Container>

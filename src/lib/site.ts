@@ -46,6 +46,7 @@ export const exportMarkets = [
 /** Primary navigation — keys map to message dictionary entries. */
 export const primaryNav = [
   { key: "products", href: "/products" },
+  { key: "valueAdded", href: "/value-added" },
   { key: "about", href: "/about" },
   { key: "certifications", href: "/certifications" },
   { key: "sustainability", href: "/sustainability" },
@@ -57,6 +58,7 @@ export const primaryNav = [
 export const footerNav = {
   explore: [
     { key: "products", href: "/products" },
+    { key: "valueAdded", href: "/value-added" },
     { key: "about", href: "/about" },
     { key: "process", href: "/process" },
     { key: "gallery", href: "/gallery" },

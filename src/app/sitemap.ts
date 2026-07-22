@@ -10,6 +10,7 @@ const staticPaths = [
   "/certifications",
   "/sustainability",
   "/process",
+  "/value-added",
   "/gallery",
   "/faq",
   "/news",

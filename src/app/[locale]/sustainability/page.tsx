@@ -10,7 +10,7 @@ import { Card } from "@/components/ui/card";
 import { Reveal, Stagger, StaggerItem } from "@/components/ui/motion";
 import { PageHeader } from "@/components/layout/page-header";
 import { FinalCta } from "@/components/sections/final-cta";
-import { BreadcrumbJsonLd } from "@/components/seo/json-ld";
+import { PageSeo } from "@/components/seo/page-seo";
 
 export async function generateMetadata({
   params,
@@ -36,12 +36,12 @@ export default async function SustainabilityPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  return <SustainabilityContent />;
+  return <SustainabilityContent locale={locale} />;
 }
 
 type Pillar = { title: string; body: string };
 
-function SustainabilityContent() {
+function SustainabilityContent({ locale }: { locale: Locale }) {
   const t = useTranslations("sustainability");
   const tn = useTranslations("nav");
   const pillars = t.raw("pillars") as Pillar[];
@@ -54,10 +54,14 @@ function SustainabilityContent() {
         lead={t("lead")}
         breadcrumbs={[{ label: tn("home"), href: "/" }, { label: tn("sustainability") }]}
       />
-      <BreadcrumbJsonLd
-        items={[
-          { name: "Home", url: "/en" },
-          { name: "Sustainability", url: "/en/sustainability" },
+      <PageSeo
+        locale={locale}
+        path="/sustainability"
+        title={t("title")}
+        description={t("lead")}
+        breadcrumbs={[
+          { name: tn("home"), path: "/" },
+          { name: tn("sustainability") },
         ]}
       />
 

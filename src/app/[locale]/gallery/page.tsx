@@ -8,7 +8,7 @@ import { Container, Section } from "@/components/ui/section";
 import { Stagger, StaggerItem } from "@/components/ui/motion";
 import { PageHeader } from "@/components/layout/page-header";
 import { FinalCta } from "@/components/sections/final-cta";
-import { BreadcrumbJsonLd } from "@/components/seo/json-ld";
+import { PageSeo } from "@/components/seo/page-seo";
 
 export async function generateMetadata({
   params,
@@ -45,10 +45,10 @@ export default async function GalleryPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  return <GalleryContent />;
+  return <GalleryContent locale={locale} />;
 }
 
-function GalleryContent() {
+function GalleryContent({ locale }: { locale: Locale }) {
   const t = useTranslations("gallery");
   const tn = useTranslations("nav");
 
@@ -60,10 +60,14 @@ function GalleryContent() {
         lead={t("lead")}
         breadcrumbs={[{ label: tn("home"), href: "/" }, { label: tn("gallery") }]}
       />
-      <BreadcrumbJsonLd
-        items={[
-          { name: "Home", url: "/en" },
-          { name: "Gallery", url: "/en/gallery" },
+      <PageSeo
+        locale={locale}
+        path="/gallery"
+        title={t("title")}
+        description={t("lead")}
+        breadcrumbs={[
+          { name: tn("home"), path: "/" },
+          { name: tn("gallery") },
         ]}
       />
 

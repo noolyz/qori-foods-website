@@ -8,6 +8,8 @@ import { Reveal } from "@/components/ui/motion";
 import { Badge } from "@/components/ui/badge";
 import { PageHeader } from "@/components/layout/page-header";
 
+import { PageSeo } from "@/components/seo/page-seo";
+
 export async function generateMetadata({
   params,
 }: {
@@ -30,7 +32,24 @@ export default async function PrivacyPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  return <PrivacyContent />;
+  const t = await getTranslations({ locale, namespace: "privacy" });
+  const tn = await getTranslations({ locale, namespace: "nav" });
+
+  return (
+    <>
+      <PageSeo
+        locale={locale}
+        path="/privacy"
+        title={t("title")}
+        description={t("lead")}
+        breadcrumbs={[
+          { name: tn("home"), path: "/" },
+          { name: tn("privacy") },
+        ]}
+      />
+      <PrivacyContent />
+    </>
+  );
 }
 
 type Sec = { title: string; body: string };

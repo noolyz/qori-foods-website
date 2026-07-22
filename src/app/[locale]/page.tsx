@@ -1,8 +1,10 @@
+import { type Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import { type Locale } from "@/i18n/routing";
+import { pageMetadata } from "@/lib/seo";
 import { Container, Section, SectionHeading } from "@/components/ui/section";
 import { Reveal, Stagger, StaggerItem } from "@/components/ui/motion";
 import { ButtonLink } from "@/components/ui/button";
@@ -13,7 +15,23 @@ import { ProductCard } from "@/components/sections/product-card";
 import { SeasonalityMatrix } from "@/components/sections/seasonality";
 import { MarketsList } from "@/components/sections/markets";
 import { CtaBand } from "@/components/sections/cta-band";
+import { WebPageJsonLd } from "@/components/seo/json-ld";
 import { getFeaturedProducts } from "@/data/products";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: Locale }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "meta" });
+  return pageMetadata({
+    locale,
+    path: "/",
+    title: t("homeTitle"),
+    description: t("homeDescription"),
+  });
+}
 
 export default async function HomePage({
   params,
@@ -22,16 +40,23 @@ export default async function HomePage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  return <HomeContent />;
+  return <HomeContent locale={locale} />;
 }
 
-function HomeContent() {
+function HomeContent({ locale }: { locale: Locale }) {
   const t = useTranslations("home");
+  const tm = useTranslations("meta");
   const tc = useTranslations("cta");
   const featured = getFeaturedProducts();
 
   return (
     <>
+      <WebPageJsonLd
+        locale={locale}
+        path="/"
+        title={tm("homeTitle")}
+        description={tm("homeDescription")}
+      />
       <Hero />
       <StatsBand />
 
