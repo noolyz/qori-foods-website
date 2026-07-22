@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-sans: "Inter", system-ui, sans-serif;
+    --font-serif: "Fraunces", Georgia, serif;
+
+    /* Semantic tokens mirrored from the Tailwind palette for non-Tailwind use */
+    --color-bg: #fdfcf9;
+    --color-surface: #ffffff;
+    --color-text: #26251f;
+    --color-muted: #69685f;
+    --color-primary: #305427;
+    --color-accent: #c8623b;
+  }
+
+  * {
+    border-color: theme("colors.ink.200");
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: theme("colors.bone.50");
+    color: theme("colors.ink.900");
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    color: theme("colors.ink.950");
+  }
+
+  /* Visible, on-brand focus ring for keyboard users */
+  :focus-visible {
+    outline: 2px solid theme("colors.field.600");
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  ::selection {
+    background-color: theme("colors.field.200");
+    color: theme("colors.ink.950");
+  }
+
+  /* Respect reduced-motion preferences globally */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  /* Accessible skip link */
+  .skip-link {
+    @apply sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-lg focus:bg-field-700 focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-white focus:shadow-card;
+  }
+
+  .prose-qori {
+    @apply max-w-prose text-ink-600 leading-relaxed [&_p]:mt-4 [&_p:first-child]:mt-0;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+  /* Subtle grain/paper feel used on hero + section backgrounds */
+  .bg-grain {
+    background-image: radial-gradient(
+      theme("colors.ink.200") 0.5px,
+      transparent 0.5px
+    );
+    background-size: 18px 18px;
+  }
+}

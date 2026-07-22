@@ -1,0 +1,304 @@
+{
+  "meta": {
+    "titleDefault": "Qori Foods — Productos frescos del Perú para el mundo",
+    "titleTemplate": "%s — Qori Foods",
+    "description": "Qori Foods SAC es una empresa peruana productora y exportadora de frutas y hortalizas frescas y certificadas —desde nuestros arándanos insignia hasta cultivos andinos especiales— con la confianza de compradores internacionales.",
+    "keywords": "exportador frutas Perú, arándanos frescos Perú, exportador de palta, GLOBALG.A.P., productos frescos B2B, Qori Foods"
+  },
+  "nav": {
+    "home": "Inicio",
+    "products": "Productos",
+    "about": "Nosotros",
+    "certifications": "Certificaciones",
+    "sustainability": "Sostenibilidad",
+    "process": "Proceso de exportación",
+    "gallery": "Galería",
+    "faq": "Preguntas",
+    "news": "Novedades",
+    "contact": "Contacto",
+    "privacy": "Privacidad"
+  },
+  "cta": {
+    "requestQuote": "Solicitar cotización",
+    "requestQuoteFor": "Solicitar cotización de {product}",
+    "viewProducts": "Ver productos",
+    "viewAllProducts": "Ver todos los productos",
+    "learnMore": "Conocer más",
+    "readMore": "Leer más",
+    "contactUs": "Contáctenos",
+    "whatsapp": "WhatsApp",
+    "downloadCatalog": "Descargar catálogo",
+    "getInTouch": "Escríbenos",
+    "talkToTeam": "Habla con nuestro equipo",
+    "backToProducts": "Volver a productos"
+  },
+  "common": {
+    "yearRound": "Todo el año",
+    "seasonal": "De temporada",
+    "availability": "Disponibilidad",
+    "region": "Región",
+    "category": "Categoría",
+    "certifiedBy": "Certificado por",
+    "explore": "Explorar",
+    "loading": "Cargando",
+    "comingSoon": "Próximamente",
+    "flagship": "Cultivo insignia"
+  },
+  "months": {
+    "1": "Ene", "2": "Feb", "3": "Mar", "4": "Abr", "5": "May", "6": "Jun",
+    "7": "Jul", "8": "Ago", "9": "Sep", "10": "Oct", "11": "Nov", "12": "Dic"
+  },
+  "a11y": {
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "switchLanguage": "Cambiar idioma",
+    "skipToContent": "Saltar al contenido",
+    "home": "Inicio de Qori Foods"
+  },
+  "footer": {
+    "tagline": "Empresa peruana productora y exportadora de productos frescos y certificados, cultivados con cuidado desde los Andes para el mundo.",
+    "explore": "Explorar",
+    "trust": "Confianza y calidad",
+    "company": "Empresa",
+    "contactTitle": "Escríbenos",
+    "certifiedTitle": "Certificación internacional",
+    "rights": "Todos los derechos reservados.",
+    "builtNote": "Cultivado en Perú. Enviado al mundo.",
+    "privacy": "Política de privacidad"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Productos frescos del Perú",
+      "title": "De los campos andinos a las mesas del mundo",
+      "lead": "Qori Foods produce y exporta frutas y hortalizas frescas y certificadas —lideradas por nuestros arándanos insignia— con la trazabilidad y confiabilidad que exigen los compradores internacionales.",
+      "primaryCta": "Solicitar cotización",
+      "secondaryCta": "Explorar productos",
+      "imageAlt": "Campos andinos al amanecer"
+    },
+    "stats": {
+      "title": "Comprobados, certificados y listos para exportar",
+      "years": "Años de experiencia",
+      "hectares": "Hectáreas de arándanos",
+      "crops": "Cultivos selectos",
+      "markets": "Mercados de exportación"
+    },
+    "trust": {
+      "eyebrow": "Calidad confiable",
+      "title": "Certificados según los estándares que exigen los compradores",
+      "lead": "Cada proceso —del campo al puerto— está respaldado por certificaciones reconocidas internacionalmente."
+    },
+    "products": {
+      "eyebrow": "Nuestros productos",
+      "title": "Una selección de cultivos premium",
+      "lead": "Desde nuestros arándanos insignia hasta especialidades andinas, cada cultivo se produce, clasifica y empaca para mercados de exportación exigentes."
+    },
+    "seasonality": {
+      "eyebrow": "Disponibilidad",
+      "title": "Suministro fresco, planificado durante todo el año",
+      "lead": "El clima del Perú nos permite complementar las ventanas del hemisferio norte. Conoce cuándo se envía cada cultivo.",
+      "cta": "Ver disponibilidad completa"
+    },
+    "people": {
+      "eyebrow": "Nuestra gente y tierra",
+      "title": "Un equipo mayoritariamente femenino, con raíces en los Andes",
+      "body": "Fundada en Caraz en 2014, Qori Foods se construye sobre la destreza de un equipo altamente capacitado y mayoritariamente femenino. Su cuidado se refleja en cada vaina, arándano y fruta seleccionados a mano, y en nuestro compromiso con una agricultura justa y sostenible.",
+      "cta": "Conoce nuestra historia",
+      "imageAlt": "Trabajadoras seleccionando productos a mano"
+    },
+    "markets": {
+      "eyebrow": "Del campo para el mundo",
+      "title": "Entregas confiables a mercados globales",
+      "lead": "Enviamos con cadena de frío mantenida desde el Perú a compradores de América, Europa y Asia."
+    },
+    "finalCta": {
+      "title": "Construyamos juntos un programa de suministro confiable",
+      "lead": "Cuéntanos qué necesitas y nuestro equipo de exportación responderá con disponibilidad, especificaciones y precios.",
+      "primary": "Solicitar cotización",
+      "secondary": "Escríbenos por WhatsApp"
+    }
+  },
+  "about": {
+    "eyebrow": "Sobre Qori Foods",
+    "title": "Comprometidos con frutas y hortalizas de alta calidad",
+    "lead": "Una empresa peruana dedicada a producir y exportar productos frescos que cumplen los más altos estándares internacionales.",
+    "storyTitle": "Con raíces en los Andes desde 2014",
+    "story": [
+      "Qori Foods SAC fue fundada en noviembre de 2014 en Caraz, provincia de Huaylas, Áncash. Desde el inicio nos propusimos producir frutas y hortalizas frescas con los más altos estándares y conectarlas con compradores de todo el mundo.",
+      "Aunque somos una empresa joven, nos impulsa la determinación de crecer y superar cada desafío en nuestro camino. Combinamos respaldo técnico experto con un equipo altamente capacitado y mayoritariamente femenino, una fortaleza que define el cuidado detrás de nuestros productos."
+    ],
+    "missionTitle": "Misión",
+    "mission": "Producir y exportar continuamente frutas y hortalizas frescas que cumplan los más altos estándares de calidad, satisfaciendo mercados nacionales e internacionales cada vez más exigentes. Garantizamos a los consumidores un producto fresco y seguro, de alto valor nutricional, presentado mediante prácticas agrícolas limpias, sostenibles y responsables.",
+    "visionTitle": "Visión",
+    "vision": "Ser reconocidos nacional e internacionalmente como una empresa peruana líder en la producción y exportación de frutas y hortalizas frescas —cumpliendo certificaciones orgánicas y buenas prácticas agrícolas— generando un impacto social y económico positivo y consolidando nuestra marca.",
+    "valuesTitle": "Lo que nos define",
+    "values": [
+      { "title": "Calidad primero", "body": "Clasificación rigurosa y disciplina de cadena de frío para que nuestros productos lleguen tal como se prometió." },
+      { "title": "Personas y equidad", "body": "Un equipo mayoritariamente femenino, respaldado por los estándares sociales GRASP y SMETA." },
+      { "title": "Cuidado de la tierra", "body": "Prácticas sostenibles del campo al puerto, certificadas por GLOBALG.A.P." },
+      { "title": "Confiabilidad", "body": "Procesos trazables y certificados en los que los compradores internacionales pueden confiar." }
+    ],
+    "timelineTitle": "Nuestro recorrido",
+    "timeline": [
+      { "year": "2014", "title": "Fundación en Caraz", "body": "Qori Foods SAC se establece en Áncash con foco en productos frescos de alta calidad." },
+      { "year": "2018", "title": "Expansión de arándanos", "body": "Escalamos nuestro programa insignia de arándanos en el Callejón de Huaylas." },
+      { "year": "2021", "title": "Certificaciones internacionales", "body": "Consolidamos GLOBALG.A.P., HACCP y estándares sociales en toda la operación." },
+      { "year": "Hoy", "title": "Exportando al mundo", "body": "Una gama diversificada de cultivos certificados enviados a compradores de tres continentes." }
+    ]
+  },
+  "products": {
+    "eyebrow": "Nuestros productos",
+    "title": "Cultivos peruanos premium, listos para exportar",
+    "lead": "Explora nuestra gama de frutas frescas, hortalizas y especialidades andinas. Filtra por categoría o disponibilidad y solicita una cotización de cualquier cultivo.",
+    "filterAll": "Todos",
+    "filterByCategory": "Categoría",
+    "resultsCount": "{count, plural, =0 {Sin productos} =1 {1 producto} other {# productos}}",
+    "emptyTitle": "Ningún producto coincide con tus filtros",
+    "emptyBody": "Prueba seleccionar otra categoría para ver más de nuestra gama.",
+    "clearFilters": "Limpiar filtros",
+    "detail": {
+      "overview": "Descripción",
+      "highlights": "Destacados",
+      "varieties": "Variedades",
+      "packaging": "Empaque y formatos",
+      "availabilityTitle": "Calendario de disponibilidad",
+      "specsTitle": "En resumen",
+      "certsTitle": "Certificaciones",
+      "peak": "Cosecha pico",
+      "available": "Disponible",
+      "notAvailable": "Fuera de temporada",
+      "ctaTitle": "¿Interesado en {product}?",
+      "ctaBody": "Solicita disponibilidad actual, especificaciones y precios a nuestro equipo de exportación.",
+      "relatedTitle": "Más de nuestra gama"
+    }
+  },
+  "certifications": {
+    "eyebrow": "Certificaciones",
+    "title": "Certificados según los más altos estándares internacionales",
+    "lead": "Nuestras certificaciones nacionales e internacionales respaldan cada proceso y producto, garantizando calidad, trazabilidad, seguridad, responsabilidad social y sostenibilidad ambiental.",
+    "closing": "En conjunto, estas certificaciones nos permiten ofrecer productos que cumplen los más altos estándares internacionales y dar confianza a los compradores en cada envío."
+  },
+  "sustainability": {
+    "eyebrow": "Sostenibilidad",
+    "title": "Hacer las cosas bien, del campo para el mundo",
+    "lead": "Para nosotros la sostenibilidad no es una meta, es una responsabilidad diaria, integrada en cada etapa de nuestra cadena de valor, desde el campo hasta la exportación.",
+    "pillarsTitle": "Nuestros compromisos",
+    "pillars": [
+      { "title": "Cuidado ambiental", "body": "Prácticas certificadas por GLOBALG.A.P. que protegen el suelo, el agua y la biodiversidad en toda la operación." },
+      { "title": "Trabajo justo y seguro", "body": "Los estándares GRASP y SMETA aseguran los derechos, la salud, la seguridad y condiciones justas de los trabajadores." },
+      { "title": "Inocuidad alimentaria", "body": "BRCGS, HACCP y GMP garantizan productos seguros y trazables en cada paso." },
+      { "title": "Impacto en la comunidad", "body": "Un equipo mayoritariamente femenino que genera un impacto social y económico positivo en Áncash." }
+    ],
+    "peopleTitle": "Las personas detrás de nuestros productos",
+    "peopleBody": "Qori Foods se construye sobre la destreza de un equipo altamente capacitado y mayoritariamente femenino. Su experiencia en el delicado trabajo de seleccionar a mano arándanos, vainas y frutas es una ventaja competitiva y un motivo de orgullo. Estamos comprometidos con condiciones laborales justas y con el bienestar de cada colaborador.",
+    "closing": "En Qori Foods, la sostenibilidad no es una etiqueta: es nuestra forma de hacer las cosas bien."
+  },
+  "process": {
+    "eyebrow": "Proceso de exportación",
+    "title": "De nuestros campos a tu puerto",
+    "lead": "Un recorrido transparente y trazable que protege la calidad en cada paso, para que tu programa funcione a tiempo y según especificación.",
+    "stepsTitle": "Cómo entregamos",
+    "steps": [
+      { "step": "01", "title": "Cultivo", "body": "Los cultivos se producen bajo buenas prácticas agrícolas GLOBALG.A.P. en las regiones andinas y costeras del Perú." },
+      { "step": "02", "title": "Cosecha y selección", "body": "Nuestros equipos seleccionan a mano por madurez, calibre y calidad, el cuidado que las máquinas no pueden replicar." },
+      { "step": "03", "title": "Empaque y cadena de frío", "body": "El producto se preenfría, clasifica y empaca bajo controles GMP y HACCP para preservar la frescura." },
+      { "step": "04", "title": "Control de calidad", "body": "Cada lote se inspecciona y documenta para una trazabilidad total frente a las especificaciones del comprador." },
+      { "step": "05", "title": "Logística de exportación", "body": "Coordinamos una cadena de frío mantenida por mar y aire hacia puertos de América, Europa y Asia." },
+      { "step": "06", "title": "Entrega y soporte", "body": "Documentación, cumplimiento fitosanitario y comunicación oportuna hasta que tu envío llega." }
+    ],
+    "traceabilityTitle": "Trazabilidad total",
+    "traceabilityBody": "Cada envío puede rastrearse hasta su campo y lote de cosecha, respaldado por nuestras certificaciones y controles de calidad documentados.",
+    "marketsTitle": "A dónde enviamos"
+  },
+  "gallery": {
+    "eyebrow": "Galería",
+    "title": "Del campo para el mundo",
+    "lead": "Una mirada a nuestros campos, nuestra gente y los productos que cultivamos con cuidado, el origen detrás de cada envío.",
+    "note": "Imágenes de referencia — reemplazar con fotografía de Qori Foods."
+  },
+  "faq": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Respuestas para compradores internacionales",
+    "lead": "Preguntas comunes sobre trabajar con Qori Foods. ¿No ves la tuya? Nuestro equipo de exportación estará encantado de ayudar.",
+    "items": [
+      { "q": "¿Cuál es su cantidad mínima de pedido (MOQ)?", "a": "El MOQ depende del cultivo, el formato y el destino, normalmente un pallet o contenedor completo. Contáctanos con tu volumen objetivo y confirmaremos la mejor opción para tu programa." },
+      { "q": "¿Con qué Incoterms trabajan?", "a": "Cotizamos habitualmente FOB y CIF, y podemos adaptarnos a otros Incoterms según destino y logística. Indícanos tu preferencia al solicitar una cotización." },
+      { "q": "¿Pueden enviar muestras?", "a": "Sí. Para compradores calificados podemos coordinar muestras de producto y fichas técnicas. Escríbenos por el formulario de contacto para iniciar el proceso." },
+      { "q": "¿Qué certificaciones tienen?", "a": "Nuestra operación está respaldada por GLOBALG.A.P., GRASP, BRCGS, HACCP, GMP y SMETA, que cubren inocuidad, prácticas agrícolas y responsabilidad social." },
+      { "q": "¿Cuáles son sus tiempos de entrega?", "a": "Los tiempos varían según el cultivo, la temporada y el destino. Una vez que conozcamos tu volumen y fechas, compartiremos un cronograma de envío realista." },
+      { "q": "¿A qué mercados ya atienden?", "a": "Enviamos a compradores de América, Europa y Asia, y siempre estamos abiertos a desarrollar nuevos mercados y alianzas." },
+      { "q": "¿Cómo protegen la calidad en el transporte?", "a": "Mantenemos una cadena de frío controlada desde el preenfriado hasta la entrega, con controles de calidad documentados y trazabilidad total de cada lote." }
+    ]
+  },
+  "news": {
+    "eyebrow": "Novedades",
+    "title": "Novedades de Qori Foods",
+    "lead": "Actualizaciones de la empresa, noticias de cosecha y perspectivas sobre los productos peruanos.",
+    "emptyTitle": "Pronto habrá novedades",
+    "emptyBody": "Estamos preparando noticias, actualizaciones de cosecha y perspectivas desde el campo. Mientras tanto, nuestro equipo está a un mensaje de distancia.",
+    "emptyCta": "Contacta a nuestro equipo"
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "title": "Solicita una cotización o inicia una conversación",
+    "lead": "Cuéntanos sobre tu programa —volúmenes, destino y fechas— y nuestro equipo de exportación responderá con disponibilidad, especificaciones y precios.",
+    "infoTitle": "Contacto directo",
+    "officeTitle": "Oficina central",
+    "hoursTitle": "Tiempo de respuesta",
+    "hoursBody": "Normalmente respondemos en un día hábil.",
+    "whatsappTitle": "WhatsApp",
+    "emailTitle": "Correo",
+    "orReach": "O contáctanos directamente",
+    "form": {
+      "title": "Envíanos un mensaje",
+      "name": "Nombre completo",
+      "namePlaceholder": "Tu nombre",
+      "email": "Correo de trabajo",
+      "emailPlaceholder": "tu@empresa.com",
+      "company": "Empresa",
+      "companyPlaceholder": "Nombre de la empresa",
+      "country": "País de destino",
+      "countryPlaceholder": "Ej. Estados Unidos",
+      "product": "Producto de interés",
+      "productAny": "Cualquiera / varios productos",
+      "volume": "Volumen estimado",
+      "volumePlaceholder": "Ej. 2 contenedores / mes",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntanos tus requerimientos, fechas y cualquier consulta.",
+      "submit": "Enviar mensaje",
+      "submitting": "Enviando…",
+      "successTitle": "Gracias, tu mensaje está en camino",
+      "successBody": "Nuestro equipo de exportación te responderá en un día hábil.",
+      "errorTitle": "Algo salió mal",
+      "errorBody": "Inténtalo de nuevo o contáctanos directamente por correo o WhatsApp.",
+      "required": "Obligatorio",
+      "sendAnother": "Enviar otro mensaje"
+    },
+    "validation": {
+      "nameMin": "Por favor ingresa tu nombre.",
+      "emailInvalid": "Por favor ingresa un correo válido.",
+      "messageMin": "Por favor añade algunos detalles sobre tu solicitud.",
+      "countryMin": "Por favor indícanos el país de destino."
+    }
+  },
+  "privacy": {
+    "eyebrow": "Legal",
+    "title": "Política de privacidad",
+    "lead": "Cómo Qori Foods SAC recopila, usa y protege la información que compartes con nosotros.",
+    "updated": "Última actualización",
+    "updatedDate": "Julio de 2025",
+    "sections": [
+      { "title": "Información que recopilamos", "body": "Cuando nos contactas o solicitas una cotización, recopilamos los datos que proporcionas —como tu nombre, empresa, correo, país de destino y mensaje— únicamente para responder a tu consulta." },
+      { "title": "Cómo usamos tu información", "body": "Usamos tu información para responder tu solicitud, preparar cotizaciones y comunicarnos sobre relaciones comerciales potenciales o existentes. No vendemos tus datos." },
+      { "title": "Compartir datos", "body": "Compartimos información solo cuando es necesario con nuestro equipo y proveedores de confianza (por ejemplo, envío de correos) para responderte, y cuando la ley lo requiere." },
+      { "title": "Retención de datos", "body": "Conservamos la información de contacto el tiempo necesario para atender tu consulta y mantener nuestra relación comercial, y luego la eliminamos o anonimizamos." },
+      { "title": "Tus derechos", "body": "Puedes solicitar el acceso, la corrección o la eliminación de tus datos personales en cualquier momento escribiendo a nuestro equipo comercial." },
+      { "title": "Contacto", "body": "Para cualquier consulta sobre privacidad, escríbenos a comercial@qorifoods.com." }
+    ]
+  },
+  "notFound": {
+    "title": "Esta página se fue a cosechar",
+    "lead": "La página que buscas no existe o pudo haberse movido. Volvamos al camino.",
+    "home": "Volver al inicio",
+    "products": "Ver productos"
+  }
+}

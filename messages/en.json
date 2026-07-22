@@ -1,0 +1,304 @@
+{
+  "meta": {
+    "titleDefault": "Qori Foods — Fresh Peruvian Produce, Exported to the World",
+    "titleTemplate": "%s — Qori Foods",
+    "description": "Qori Foods SAC is a Peruvian grower and exporter of fresh, certified fruits and vegetables — from flagship blueberries to Andean specialty crops — trusted by international buyers.",
+    "keywords": "Peruvian produce exporter, fresh blueberries Peru, avocado exporter, GLOBALG.A.P., B2B produce, Qori Foods"
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About",
+    "certifications": "Certifications",
+    "sustainability": "Sustainability",
+    "process": "Export Process",
+    "gallery": "Gallery",
+    "faq": "FAQ",
+    "news": "News",
+    "contact": "Contact",
+    "privacy": "Privacy"
+  },
+  "cta": {
+    "requestQuote": "Request a quote",
+    "requestQuoteFor": "Request a quote for {product}",
+    "viewProducts": "View products",
+    "viewAllProducts": "View all products",
+    "learnMore": "Learn more",
+    "readMore": "Read more",
+    "contactUs": "Contact us",
+    "whatsapp": "WhatsApp",
+    "downloadCatalog": "Download catalog",
+    "getInTouch": "Get in touch",
+    "talkToTeam": "Talk to our export team",
+    "backToProducts": "Back to products"
+  },
+  "common": {
+    "yearRound": "Year-round",
+    "seasonal": "Seasonal",
+    "availability": "Availability",
+    "region": "Region",
+    "category": "Category",
+    "certifiedBy": "Certified by",
+    "explore": "Explore",
+    "loading": "Loading",
+    "comingSoon": "Coming soon",
+    "flagship": "Flagship crop"
+  },
+  "months": {
+    "1": "Jan", "2": "Feb", "3": "Mar", "4": "Apr", "5": "May", "6": "Jun",
+    "7": "Jul", "8": "Aug", "9": "Sep", "10": "Oct", "11": "Nov", "12": "Dec"
+  },
+  "a11y": {
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "switchLanguage": "Switch language",
+    "skipToContent": "Skip to content",
+    "home": "Qori Foods home"
+  },
+  "footer": {
+    "tagline": "A Peruvian grower and exporter of fresh, certified produce — cultivated with care from the Andes to the world.",
+    "explore": "Explore",
+    "trust": "Trust & quality",
+    "company": "Company",
+    "contactTitle": "Talk to us",
+    "certifiedTitle": "Internationally certified",
+    "rights": "All rights reserved.",
+    "builtNote": "Grown in Perú. Shipped worldwide.",
+    "privacy": "Privacy Policy"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Fresh Peruvian produce",
+      "title": "From Andean fields to the world's tables",
+      "lead": "Qori Foods grows and exports fresh, certified fruits and vegetables — led by our flagship blueberries — with the traceability and reliability international buyers demand.",
+      "primaryCta": "Request a quote",
+      "secondaryCta": "Explore our products",
+      "imageAlt": "Andean farmland at sunrise"
+    },
+    "stats": {
+      "title": "Proven, certified, and export-ready",
+      "years": "Years of experience",
+      "hectares": "Hectares of blueberries",
+      "crops": "Selected crops",
+      "markets": "Export markets"
+    },
+    "trust": {
+      "eyebrow": "Trusted quality",
+      "title": "Certified to the standards buyers require",
+      "lead": "Every process — from field to port — is backed by internationally recognized certifications."
+    },
+    "products": {
+      "eyebrow": "Our products",
+      "title": "A curated range of premium crops",
+      "lead": "From our flagship blueberries to Andean specialties, each crop is grown, graded and packed for demanding export markets."
+    },
+    "seasonality": {
+      "eyebrow": "Availability",
+      "title": "Fresh supply, planned around the calendar",
+      "lead": "Peru's climate lets us complement Northern Hemisphere gaps. See when each crop ships.",
+      "cta": "See full availability"
+    },
+    "people": {
+      "eyebrow": "Our people & land",
+      "title": "A predominantly female team, rooted in the Andes",
+      "body": "Founded in Caraz in 2014, Qori Foods is built on the skill of a highly trained, predominantly female workforce. Their care shows in every hand-selected pod, berry and fruit — and in our commitment to fair, sustainable agriculture.",
+      "cta": "Read our story",
+      "imageAlt": "Farm workers hand-selecting produce"
+    },
+    "markets": {
+      "eyebrow": "From the field to the world",
+      "title": "Reliable delivery to global markets",
+      "lead": "We ship a maintained cold chain from Peru to buyers across the Americas, Europe and Asia."
+    },
+    "finalCta": {
+      "title": "Let's build a reliable supply program together",
+      "lead": "Tell us what you need and our export team will respond with availability, specs and pricing.",
+      "primary": "Request a quote",
+      "secondary": "Chat on WhatsApp"
+    }
+  },
+  "about": {
+    "eyebrow": "About Qori Foods",
+    "title": "Committed to high-quality fruits and vegetables",
+    "lead": "A Peruvian company dedicated to producing and exporting fresh produce that meets the highest international standards.",
+    "storyTitle": "Rooted in the Andes since 2014",
+    "story": [
+      "Qori Foods SAC was founded in November 2014 in Caraz, in the province of Huaylas, Áncash. From the beginning we set out to grow fresh fruits and vegetables to the highest standards and connect them with buyers around the world.",
+      "Though still a young company, we are driven by a determination to grow and to overcome every challenge on our path. We combine expert technical support with a highly trained, predominantly female team — a strength that defines the care behind our produce."
+    ],
+    "missionTitle": "Mission",
+    "mission": "To continuously produce and export fresh fruits and vegetables that meet the highest quality standards, satisfying increasingly demanding national and international markets. We guarantee consumers a fresh, safe product with high nutritional value, presented through clean, sustainable and responsible agricultural practices.",
+    "visionTitle": "Vision",
+    "vision": "To be recognized nationally and internationally as a leading Peruvian producer and exporter of fresh fruits and vegetables — compliant with organic certifications and good agricultural practices — generating positive social and economic impact and consolidating our brand.",
+    "valuesTitle": "What we stand for",
+    "values": [
+      { "title": "Quality first", "body": "Rigorous grading and cold-chain discipline so our produce arrives exactly as promised." },
+      { "title": "People & fairness", "body": "A predominantly female workforce, supported by GRASP and SMETA social standards." },
+      { "title": "Care for the land", "body": "Sustainable practices from field to port, certified by GLOBALG.A.P." },
+      { "title": "Reliability", "body": "Traceable, certified processes that international buyers can count on." }
+    ],
+    "timelineTitle": "Our journey",
+    "timeline": [
+      { "year": "2014", "title": "Founded in Caraz", "body": "Qori Foods SAC is established in Áncash with a focus on fresh, high-quality produce." },
+      { "year": "2018", "title": "Blueberry expansion", "body": "We scale our flagship blueberry program across the Callejón de Huaylas." },
+      { "year": "2021", "title": "International certifications", "body": "We consolidate GLOBALG.A.P., HACCP and social standards across operations." },
+      { "year": "Today", "title": "Exporting worldwide", "body": "A diversified range of certified crops shipped to buyers across three continents." }
+    ]
+  },
+  "products": {
+    "eyebrow": "Our products",
+    "title": "Premium Peruvian crops, export-ready",
+    "lead": "Explore our range of fresh fruits, vegetables and Andean specialties. Filter by category or availability, and request a quote for any crop.",
+    "filterAll": "All",
+    "filterByCategory": "Category",
+    "resultsCount": "{count, plural, =0 {No products} =1 {1 product} other {# products}}",
+    "emptyTitle": "No products match your filters",
+    "emptyBody": "Try selecting a different category to see more of our range.",
+    "clearFilters": "Clear filters",
+    "detail": {
+      "overview": "Overview",
+      "highlights": "Highlights",
+      "varieties": "Varieties",
+      "packaging": "Packaging & formats",
+      "availabilityTitle": "Availability calendar",
+      "specsTitle": "At a glance",
+      "certsTitle": "Certifications",
+      "peak": "Peak harvest",
+      "available": "Available",
+      "notAvailable": "Not in season",
+      "ctaTitle": "Interested in {product}?",
+      "ctaBody": "Request current availability, specifications and pricing from our export team.",
+      "relatedTitle": "More from our range"
+    }
+  },
+  "certifications": {
+    "eyebrow": "Certifications",
+    "title": "Certified to the highest international standards",
+    "lead": "Our national and international certifications back every process and product — guaranteeing quality, traceability, safety, social responsibility and environmental sustainability.",
+    "closing": "Together, these certifications let us offer products that meet the highest international standards — and give buyers confidence in every shipment."
+  },
+  "sustainability": {
+    "eyebrow": "Sustainability",
+    "title": "Doing things right, from the field to the world",
+    "lead": "For us, sustainability is not a goal — it is a daily responsibility, integrated into every stage of our value chain, from the field to export.",
+    "pillarsTitle": "Our commitments",
+    "pillars": [
+      { "title": "Environmental care", "body": "GLOBALG.A.P.-certified practices that protect soil, water and biodiversity across our operations." },
+      { "title": "Fair, safe work", "body": "GRASP and SMETA standards ensure workers' rights, health, safety and fair conditions." },
+      { "title": "Food safety", "body": "BRCGS, HACCP and GMP guarantee safe, traceable products at every step." },
+      { "title": "Community impact", "body": "A predominantly female workforce generating positive social and economic impact in Áncash." }
+    ],
+    "peopleTitle": "The people behind our produce",
+    "peopleBody": "Qori Foods is built on the skill of a highly trained, predominantly female team. Their expertise in the delicate work of hand-selecting berries, pods and fruit is a competitive advantage — and a source of pride. We are committed to fair working conditions and to the well-being of every collaborator.",
+    "closing": "At Qori Foods, sustainability is not a label — it is our way of doing things well."
+  },
+  "process": {
+    "eyebrow": "Export process",
+    "title": "From our fields to your port",
+    "lead": "A transparent, traceable journey that protects quality at every step — so your program runs on time and to spec.",
+    "stepsTitle": "How we deliver",
+    "steps": [
+      { "step": "01", "title": "Cultivation", "body": "Crops are grown under GLOBALG.A.P. good agricultural practices in Peru's Andean and coastal regions." },
+      { "step": "02", "title": "Harvest & selection", "body": "Our teams hand-select by maturity, caliber and quality — the care machines can't replicate." },
+      { "step": "03", "title": "Packing & cold chain", "body": "Produce is pre-cooled, graded and packed under GMP and HACCP controls to preserve freshness." },
+      { "step": "04", "title": "Quality control", "body": "Each lot is inspected and documented for full traceability against buyer specifications." },
+      { "step": "05", "title": "Export logistics", "body": "We coordinate a maintained cold chain by sea and air to ports across the Americas, Europe and Asia." },
+      { "step": "06", "title": "Delivery & support", "body": "Documentation, phytosanitary compliance and responsive communication until your shipment arrives." }
+    ],
+    "traceabilityTitle": "Full traceability",
+    "traceabilityBody": "Every shipment can be traced back to its field and harvest lot — supported by our certifications and documented quality controls.",
+    "marketsTitle": "Where we ship"
+  },
+  "gallery": {
+    "eyebrow": "Gallery",
+    "title": "From the field for the world",
+    "lead": "A look at our fields, our people and the produce we grow with care — the origin behind every shipment.",
+    "note": "Placeholder imagery — replace with Qori Foods photography."
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Answers for international buyers",
+    "lead": "Common questions about working with Qori Foods. Don't see yours? Our export team is happy to help.",
+    "items": [
+      { "q": "What is your minimum order quantity (MOQ)?", "a": "MOQ depends on the crop, format and destination — typically a full pallet or container. Contact our team with your target volume and we'll confirm the best option for your program." },
+      { "q": "Which Incoterms do you work with?", "a": "We commonly quote FOB and CIF, and can accommodate other Incoterms depending on destination and logistics. Let us know your preference when requesting a quote." },
+      { "q": "Can you provide samples?", "a": "Yes. For qualified buyers we can arrange product samples and specification sheets. Reach out through the contact form to start the process." },
+      { "q": "What certifications do you hold?", "a": "Our operations are backed by GLOBALG.A.P., GRASP, BRCGS, HACCP, GMP and SMETA — covering food safety, agricultural practices and social responsibility." },
+      { "q": "What are your lead times?", "a": "Lead times vary by crop, season and destination. Once we understand your volume and timing, we'll share a realistic shipping schedule." },
+      { "q": "Which markets do you already serve?", "a": "We ship to buyers across the Americas, Europe and Asia, and we're always open to developing new markets and partnerships." },
+      { "q": "How do you protect quality in transit?", "a": "We maintain a controlled cold chain from pre-cooling through delivery, with documented quality controls and full traceability for every lot." }
+    ]
+  },
+  "news": {
+    "eyebrow": "News & insights",
+    "title": "News from Qori Foods",
+    "lead": "Company updates, harvest news and perspectives on Peruvian produce.",
+    "emptyTitle": "Stories are on the way",
+    "emptyBody": "We're preparing news, harvest updates and insights from the field. In the meantime, our team is one message away.",
+    "emptyCta": "Contact our team"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Request a quote or start a conversation",
+    "lead": "Tell us about your program — volumes, destination and timing — and our export team will respond with availability, specifications and pricing.",
+    "infoTitle": "Direct contact",
+    "officeTitle": "Head office",
+    "hoursTitle": "Response time",
+    "hoursBody": "We typically respond within one business day.",
+    "whatsappTitle": "WhatsApp",
+    "emailTitle": "Email",
+    "orReach": "Or reach us directly",
+    "form": {
+      "title": "Send us a message",
+      "name": "Full name",
+      "namePlaceholder": "Your name",
+      "email": "Work email",
+      "emailPlaceholder": "you@company.com",
+      "company": "Company",
+      "companyPlaceholder": "Company name",
+      "country": "Destination country",
+      "countryPlaceholder": "e.g. United States",
+      "product": "Product of interest",
+      "productAny": "Any / multiple products",
+      "volume": "Estimated volume",
+      "volumePlaceholder": "e.g. 2 containers / month",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your requirements, timing and any questions.",
+      "submit": "Send message",
+      "submitting": "Sending…",
+      "successTitle": "Thank you — your message is on its way",
+      "successBody": "Our export team will get back to you within one business day.",
+      "errorTitle": "Something went wrong",
+      "errorBody": "Please try again, or reach us directly by email or WhatsApp.",
+      "required": "Required",
+      "sendAnother": "Send another message"
+    },
+    "validation": {
+      "nameMin": "Please enter your name.",
+      "emailInvalid": "Please enter a valid email address.",
+      "messageMin": "Please add a few details about your request.",
+      "countryMin": "Please tell us the destination country."
+    }
+  },
+  "privacy": {
+    "eyebrow": "Legal",
+    "title": "Privacy Policy",
+    "lead": "How Qori Foods SAC collects, uses and protects the information you share with us.",
+    "updated": "Last updated",
+    "updatedDate": "July 2025",
+    "sections": [
+      { "title": "Information we collect", "body": "When you contact us or request a quote, we collect the details you provide — such as your name, company, email, destination country and message — solely to respond to your inquiry." },
+      { "title": "How we use your information", "body": "We use your information to reply to your request, prepare quotes and communicate about potential or existing commercial relationships. We do not sell your data." },
+      { "title": "Data sharing", "body": "We share information only as needed with our team and trusted service providers (for example, email delivery) to respond to you, and where required by law." },
+      { "title": "Data retention", "body": "We retain contact information for as long as necessary to serve your inquiry and maintain our commercial relationship, then delete or anonymize it." },
+      { "title": "Your rights", "body": "You may request access to, correction of, or deletion of your personal data at any time by writing to our commercial team." },
+      { "title": "Contact", "body": "For any privacy question, contact us at comercial@qorifoods.com." }
+    ]
+  },
+  "notFound": {
+    "title": "This page has gone to harvest",
+    "lead": "The page you're looking for doesn't exist or may have moved. Let's get you back on track.",
+    "home": "Back to home",
+    "products": "Browse products"
+  }
+}
