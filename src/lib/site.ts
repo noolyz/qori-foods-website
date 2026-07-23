@@ -43,15 +43,16 @@ export const exportMarkets = [
   "China",
 ] as const;
 
-/** Primary navigation — keys map to message dictionary entries. */
+/** All pages listed in the site menu overlay. */
 export const primaryNav = [
   { key: "products", href: "/products" },
   { key: "valueAdded", href: "/value-added" },
   { key: "about", href: "/about" },
   { key: "certifications", href: "/certifications" },
-  { key: "sustainability", href: "/sustainability" },
   { key: "process", href: "/process" },
+  { key: "sustainability", href: "/sustainability" },
   { key: "gallery", href: "/gallery" },
+  { key: "faq", href: "/faq" },
 ] as const;
 
 /** Footer navigation columns. */

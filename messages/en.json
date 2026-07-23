@@ -19,7 +19,9 @@
     "faq": "FAQ",
     "news": "News",
     "contact": "Contact",
-    "privacy": "Privacy"
+    "privacy": "Privacy",
+    "menu": "Menu",
+    "close": "Close"
   },
   "cta": {
     "requestQuote": "Request a quote",

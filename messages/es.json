@@ -19,7 +19,9 @@
     "faq": "Preguntas",
     "news": "Novedades",
     "contact": "Contacto",
-    "privacy": "Privacidad"
+    "privacy": "Privacidad",
+    "menu": "Menú",
+    "close": "Cerrar"
   },
   "cta": {
     "requestQuote": "Solicitar cotización",
