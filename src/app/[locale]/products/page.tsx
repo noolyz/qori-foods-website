@@ -16,9 +16,9 @@ import { products } from "@/data/products";
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
-  const { locale } = await params;
+  const { locale } = (await params) as { locale: Locale };
   const t = await getTranslations({ locale, namespace: "products" });
   return pageMetadata({
     locale,
@@ -31,9 +31,9 @@ export async function generateMetadata({
 export default async function ProductsPage({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }) {
-  const { locale } = await params;
+  const { locale } = (await params) as { locale: Locale };
   setRequestLocale(locale);
   return <ProductsContent locale={locale} />;
 }

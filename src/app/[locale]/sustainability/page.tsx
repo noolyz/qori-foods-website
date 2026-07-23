@@ -15,9 +15,9 @@ import { PageSeo } from "@/components/seo/page-seo";
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
-  const { locale } = await params;
+  const { locale } = (await params) as { locale: Locale };
   const t = await getTranslations({ locale, namespace: "sustainability" });
   return pageMetadata({
     locale,
@@ -32,9 +32,9 @@ const pillarIcons = [Leaf, HeartHandshake, ShieldCheck, Sprout];
 export default async function SustainabilityPage({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }) {
-  const { locale } = await params;
+  const { locale } = (await params) as { locale: Locale };
   setRequestLocale(locale);
   return <SustainabilityContent locale={locale} />;
 }

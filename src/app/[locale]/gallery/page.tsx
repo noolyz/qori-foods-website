@@ -13,9 +13,9 @@ import { PageSeo } from "@/components/seo/page-seo";
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
-  const { locale } = await params;
+  const { locale } = (await params) as { locale: Locale };
   const t = await getTranslations({ locale, namespace: "gallery" });
   return pageMetadata({
     locale,
@@ -41,9 +41,9 @@ const gallery = [
 export default async function GalleryPage({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }) {
-  const { locale } = await params;
+  const { locale } = (await params) as { locale: Locale };
   setRequestLocale(locale);
   return <GalleryContent locale={locale} />;
 }

@@ -15,9 +15,9 @@ import { siteConfig } from "@/lib/site";
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
-  const { locale } = await params;
+  const { locale } = (await params) as { locale: Locale };
   const t = await getTranslations({ locale, namespace: "contact" });
   return pageMetadata({
     locale,
@@ -31,10 +31,10 @@ export default async function ContactPage({
   params,
   searchParams,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
   searchParams: Promise<{ product?: string }>;
 }) {
-  const { locale } = await params;
+  const { locale } = (await params) as { locale: Locale };
   const { product } = await searchParams;
   setRequestLocale(locale);
   return <ContactContent locale={locale} defaultProduct={product} />;
